@@ -1,5 +1,10 @@
 ---
 title:  A dual splitting/ImEx strategy for multicomponent reacting flows with space /time adaptation and error control
+title-slide-attributes:
+  data-background-image: ./figures/logo_background.png
+  data-background-size: 100%
+  data-background-opacity: "0.9"
+  data-background-position: top
 author:
     - Josselin Massot, Laurent Series, Christian Tenaud, Loïc Gouarin, Pierre Matalon, Marc Massot
 format:
@@ -14,23 +19,6 @@ footer: Modelling Summer Visit 2025 - NASA &nbsp;&nbsp; <img width="5%" src="fig
  
 ---
 
-:::{.row .text-center .align-items-center}
-::::{.col}
-![](figures/MSV2025-logo-text.png){height="90px"}
-::::
-::::{.col}
-![](figures/logo_nasa.jpg){height="120px"}
-::::
-::::{.col}
-![](figures/ESM-logo.png){height="100px"}
-::::
-::::{.col}
-![](figures/logo.png){height="120px"}
-::::
-::::{.col}
-![](figures/logo_polytechnique.png){height="90px"}
-::::
-:::
 
 # Mesh adaptation and error control
 
