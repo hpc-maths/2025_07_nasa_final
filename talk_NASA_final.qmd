@@ -586,7 +586,6 @@ $$
 ![](figures/VelocityMagnitude_contours_BSvortex_Tf10_level3_9_eps1e-03_MRAFLF_highest.png){width=47%}
 :::
 
----
 
 # A dual ImEx/Splitting strategy for stiff PDEs
 
