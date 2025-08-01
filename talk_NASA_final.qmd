@@ -690,7 +690,7 @@ $\epsilon = 1e-3$, $\underline{\ell} = 2$, $\bar{\ell} = 10$
 <div style="position: absolute; top: 50%; transform: translate(0, 10%); text-align: center;">
 
 :::{.row}
-::::{.col-5 .align-self-center}
+::::{.col-4 .align-self-center}
 ![](figures/logo.png)
 ::::
 ::::{.col .align-self-center}
