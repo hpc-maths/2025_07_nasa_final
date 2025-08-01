@@ -16,16 +16,19 @@ footer: Modelling Summer Visit 2025 - NASA &nbsp;&nbsp; <img width="5%" src="fig
 
 :::{.row .text-center .align-items-center}
 ::::{.col}
-![](figures/logo_nasa.jpg){height="130px"}
+![](figures/MSV2025-logo-text.png){height="90px"}
 ::::
 ::::{.col}
-![](figures/ESM-logo.png){height="110px"}
+![](figures/logo_nasa.jpg){height="120px"}
 ::::
 ::::{.col}
-![](figures/logo.png){height="130px"}
+![](figures/ESM-logo.png){height="100px"}
 ::::
 ::::{.col}
-![](figures/logo_polytechnique.png){height="100px"}
+![](figures/logo.png){height="120px"}
+::::
+::::{.col}
+![](figures/logo_polytechnique.png){height="90px"}
 ::::
 :::
 
