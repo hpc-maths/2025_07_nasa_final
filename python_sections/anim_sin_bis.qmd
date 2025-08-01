@@ -58,7 +58,7 @@ def show_animation(nb_frames):
         filename = './data/sin_mr_mlf/burgers_level_3_10_ite_'+str(i)+'.h5'
         xmrmlf, umrmlf, levelmrmlf = read_frame(filename, 'u')
         
-        frames.append(go.Frame(data=[go.Scatter(x=x, y=u, name=f"exa. sol. (t = {t[i]:.4f})"), 
+        frames.append(go.Frame(data=[go.Scatter(x=x, y=u, name=f"exa. sol. (t = {t[i]:.3f})"), 
                                      go.Scatter(x=xmr, y=umr, name="MR sol."),
                                      go.Scatter(x=xmrmlf, y=umrmlf, name="MR+MLF sol."),
                                      ]))
@@ -75,7 +75,7 @@ def show_animation(nb_frames):
     buttons=[dict(label="&#9654;", method="animate", args=[None, animate_opts]),
              dict(label="&#9724;", method="animate", args=[[None], dict(mode="immediate")])]
     fig.update_layout(updatemenus=[dict(type="buttons", buttons=buttons, direction="left", x=0.5, y=-0.1)], 
-                      title=f'Burgers, eps = {1e-3},  min level = {min_level}, max level = {max_level}', height=550, legend=dict( font=dict(size=16), x=0.01, y=0.97, bgcolor='rgba(0,0,0,0)', tracegroupgap=250, groupclick="toggleitem"), width=1000)
+                      title=f'Burgers, eps = {1e-3:1e},  min level = {min_level}, max level = {max_level}', height=550, legend=dict( font=dict(size=16), x=0.01, y=0.97, bgcolor='rgba(0,0,0,0)', tracegroupgap=250, groupclick="toggleitem"), width=1000)
     fig.update(frames=frames)
     fig.show()
 

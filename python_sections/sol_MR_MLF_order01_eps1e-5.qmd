@@ -63,7 +63,7 @@ def show_sol(level_min, level_max, eps, mlf=False):
     marker_sol = dict(symbol='x-thin', line_color='rgb(221,132,82)', line_width=1, size=5) 
     fig.add_trace(go.Scatter(x=x, y=u, mode='markers', marker=marker_sol, name="sol"), row=1, col=1)
     marker_level = dict(symbol='line-ns', line_color='rgb(85,168,104)', line_width=1, size=5) 
-    fig.add_trace(go.Scatter(x=xx, y=ll, mode='lines+markers', name="levell", marker=marker_level), row=2, col=1)
+    fig.add_trace(go.Scatter(x=xx, y=ll, mode='lines+markers', name="level", marker=marker_level), row=2, col=1)
     legend = dict(x=0.05, y=0.95, bgcolor='rgba(0,0,0,0)', font=dict(size=14))
     fig.update_layout(legend=legend, height=600, width=1000, title=f"Compression rate = {rate}, eps = {eps}, Tf=0.6, min level={level_min}, max level={level_max}")
     fig.show()
